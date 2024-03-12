@@ -1,6 +1,6 @@
-package com.example.testPj.entity;
+package com.example.testPj.data.entity;
 
-import com.example.testPj.dto.ProductDto;
+import com.example.testPj.data.dto.ProductDto;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -16,13 +16,15 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Table(name="product")
+
+// Entity = DB 테이블과 직접적으로 맵핑되는 클래스
 public class ProductEntity {
 	
-	@Id
+	@Id	// primary key 값
 	String productId;
 	String productName;
-	int productPrice;
-	int productStock;
+	Integer productPrice;
+	Integer productStock;
 	
 	public ProductDto toDto() {
 		return ProductDto.builder()

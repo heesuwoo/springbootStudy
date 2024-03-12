@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.testPj.dto.MemberDTO;
+import com.example.testPj.data.dto.MemberDTO;
 
 @RestController
 @RequestMapping("/api/v1/put-api")

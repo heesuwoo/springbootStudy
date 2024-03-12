@@ -1,11 +1,11 @@
-package com.example.testPj.dao.impl;
+package com.example.testPj.data.dao.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.testPj.dao.ProductDAO;
-import com.example.testPj.entity.ProductEntity;
-import com.example.testPj.repository.ProductRepository;
+import com.example.testPj.data.dao.ProductDAO;
+import com.example.testPj.data.entity.ProductEntity;
+import com.example.testPj.data.repository.ProductRepository;
 
 
 @Service

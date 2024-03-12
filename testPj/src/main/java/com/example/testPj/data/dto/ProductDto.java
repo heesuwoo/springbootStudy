@@ -1,4 +1,4 @@
-package com.example.testPj.dto;
+package com.example.testPj.data.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

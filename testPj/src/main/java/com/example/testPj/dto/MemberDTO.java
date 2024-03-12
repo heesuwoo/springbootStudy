@@ -1,4 +1,4 @@
-package com.example.testPj.data.dto;
+package com.example.testPj.dto;
 
 import lombok.Getter;
 import lombok.Setter;

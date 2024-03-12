@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.testPj.dto.MemberDTO;
+import com.example.testPj.data.dto.MemberDTO;
 
 @RestController	// restful한 컨트롤러를 만듦
 @RequestMapping("/api/v1/get-api")	// 공통되는 url을 넣어주기 위해 사용됨

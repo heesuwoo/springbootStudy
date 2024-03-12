@@ -1,6 +1,6 @@
-package com.example.testPj.handler;
+package com.example.testPj.data.handler;
 
-import com.example.testPj.entity.ProductEntity;
+import com.example.testPj.data.entity.ProductEntity;
 
 public interface ProductDataHandler {
 

@@ -1,6 +1,6 @@
-package com.example.testPj.dao;
+package com.example.testPj.data.dao;
 
-import com.example.testPj.entity.ProductEntity;
+import com.example.testPj.data.entity.ProductEntity;
 
 public interface ProductDAO {
 	
